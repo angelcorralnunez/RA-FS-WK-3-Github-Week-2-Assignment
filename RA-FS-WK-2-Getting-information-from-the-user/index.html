@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="navbar-main">
+        <div class="home"><a href="#">Home</a></div>
+        <div class="contact"><a href="#contact1" >Contact</a></div>
+    </div>
+    <div class="table-div">
+        <table>
+            <label id="contact1" for="contact us'">Contact Us:</label>
+            &nbsp
+            <select name="contact menu" id="contact'menu'">
+            <option value="name">Name</option>
+            <option value="email">Email</option>
+            <option value="message">Message</option>
+            <option value="priority">Priority</option>
+            <tr>
+                <td>
+                <label>
+                    Your name <span class="required">*</span>
+                </label>
+                </td>
+                <td>
+                <input type="your'name'" name="name" class="long"/>
+                <span class="error" id="errorname"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <label>
+                    Your email address <span class="required">*</span>
+                </label>
+                </td>
+                <td>
+                <input type="email" name="email" class="long"/>
+                <span class="error" id="erroremail"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <label>
+                Message <span class="required">*</span>
+                </label>
+                </td>
+                <td>
+                <textarea name="message" class="long field-textarea"></textarea>
+                <span class="error" id="errormsg"></span>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                <input type="submit" value="Submit">      
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
