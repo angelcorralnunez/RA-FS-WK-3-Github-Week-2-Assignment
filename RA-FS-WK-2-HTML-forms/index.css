@@ -1,0 +1,376 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 18px;
+    color: rgb(69,33,33);
+    padding: 0;
+    background: rgb(253,231,232);
+}
+
+.navbar-main {
+    display: flex;
+    align-items:center;
+    padding: 5px;
+    height: 84px;
+    flex-shrink: 0;
+    box-sizing:border-box;
+    border: 1px solid invisible;
+    background-color: rgb(254,174,86);
+    color: rgb(253,231,232);
+    font-family: 'Philosopher', sans-serif;
+    font-size: 30px;
+}
+
+    .top-logo-cont {
+    height:64px;
+    width: 180px;
+    margin: 10px 5px 5px 25px;
+    border-radius: 15px;
+    }
+
+    .top-nav-logo {
+        height:54px;
+        width: 170px;
+        border: 2px solid rgb(244,122,122);
+        border-radius: 12px;
+    }
+
+        .home {
+        display: inline-block;
+        padding: 5px;
+        margin: 0 15px;
+    }
+        .about {
+            display: inline-block;
+            padding: 15px;
+            margin: 0 5px;
+    }
+
+        .menu {
+            display: inline-block;
+            padding: 15px;
+            margin: 0 5px;
+    }
+
+        .contact {
+            display: inline-block;
+            padding: 12px;
+            margin: 0 5px;
+}
+        .navbar-center {
+            display: inline-block;
+            flex-grow: 1;
+}
+
+        .phone {
+            padding: 2px;
+            margin: 5px 15px 0 5px;
+    }
+
+        .email {
+            padding: 2px;
+            margin: 5px 35px 0 5px;
+        
+    }
+
+    .icons {
+        display: inline-block;
+        padding: 2px;
+        border: 2px solid rgb(253,231,232);
+        border-radius: 50%;
+}
+
+div div a {
+    color: rgb(253,231,232);
+    background-color: transparent;
+    text-decoration: none;
+} 
+
+.bus-name {
+    width:500px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px 0;
+    text-align: center;
+    color: rgb(244,122,122);
+    font-size: 30px;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}   
+
+.about-title {
+    width:500px;
+    margin: 0 auto;
+    padding-top: 5px; 
+    margin-bottom: 40px; 
+    text-align: center;
+    color: rgb(254,174,86);                                                                                                                                                                                         ;
+    font-size: 50px;
+
+}
+
+#about-par {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 0 15px 15px 15px;
+}
+
+.hero-img {
+    box-sizing: border-box;
+    width: 650px;
+    height: 450px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.hero-par {
+    box-sizing: border-box;
+    width: 650px;
+    height: 450px;
+    margin: auto;
+    font-size: 20px;
+    
+}
+
+.btn-box {
+    height: 60px;
+}
+
+.order-btn {
+    background: rgb(244,122,122);
+    color: rgb(253,231,232);
+    height: 50px;
+    border: 5px solid rgb(254,174,86);
+    border-radius: 12px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+button a {
+    color: rgb(253,231,232);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#menu-div {
+    margin-bottom: 100px !important;
+}
+
+.menu-grid-cont-top {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 3rem;
+    width: min(90%, 68.5rem);
+    margin-inline: auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    
+}   
+
+.menu-grid-title {
+    width:500px;
+    margin: 0 auto;
+    padding-top: 50px; 
+    text-align: center;
+    color: rgb(244,122,122);
+    font-size: 50px;
+}
+
+.menu-grid-cont-bot {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 3rem;
+    width: min(90%, 68.5rem);
+    margin-inline: auto;
+    margin-bottom: 120px;
+    margin-top: 60px;
+}   
+
+.img-row {
+    border-radius: 20px;
+}
+
+h3 {
+    padding-top: 5px; 
+    text-shadow: 0 0 10px rgb(253,231,232), 0 0 20px rgb(253,231,232), 0 0 42px rgb(254,174,86), 0 0 82px rgb(254,174,86),0 0 92px rgb(254,174,86);
+	color: rgb(244,122,122);
+	font-size: 30px;
+	text-align: center;
+    	 
+}
+
+main div h3 a {
+    color: rgb(244,122,122);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#menu-par {
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.pic-par {
+    font-family: 'Philosopher', sans-serif;
+    
+}
+
+.contact-form-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 50px;
+    margin-bottom: 150px;
+} 
+
+.contact-grid-title {
+    width:500px;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(254,174,86);
+    font-size: 50px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 10px;
+}
+
+.contact-cont {
+    margin-top: 110px;
+    padding: 0 50px 50px 150px;
+    margin: 120px 0 100px 100px; 
+}
+
+.contact-title {
+    width:500px;
+    margin: 0 auto; 
+    text-align: center;
+    color: rgb(244,122,122);
+    font-size: 50px;
+}
+
+.contact-par {
+    margin: 0 auto;
+    padding-top: 20px; 
+    text-align: center;
+    font-size: 25px;
+}
+
+.contact-img {
+    box-sizing: border-box;
+    width: 550px;
+    height: 350px;
+    margin: 80px 100px 80px 100px;
+    border-radius: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+.submit-btn {
+    background: rgb(244,122,122);
+    color: rgb(253,231,232);
+    height: 50px;
+    border: 5px solid rgb(254,174,86);
+    border-radius: 12px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.footer-cont {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 40% 40% 5% 5% 5% 5%;
+    margin: 5px;
+    padding-top: 4px;
+    flex-shrink: 0;
+    box-sizing:border-box;
+    background-color: rgb(254,174,86);
+    color: rgb(253,231,232);
+}
+
+.logo-foot {
+    box-sizing:border-box;
+    height:54px;
+    width: 170px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(244,122,122);
+    border-radius: 12px;
+}
+
+.icon-fb {
+    margin-top: 8px;
+    padding: 2px;
+    border: 2px solid rgb(253,231,232);
+    border-radius: 50%;
+}
+
+.icon-insta {
+    margin-top: 8px;
+    padding: 2px;
+    border: 2px solid rgb(253,231,232);
+    border-radius: 50%;
+}
+
+.icon-twit {
+    margin-top: 8px;
+    padding: 2px;
+    border: 2px solid rgb(253,231,232);
+    border-radius: 50%;
+}
+
+.icon-pin {
+    margin-top: 8px;
+    padding: 2px;
+    border: 2px solid rgb(253,231,232);
+    border-radius: 50%;
+}
+
+.copy-grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 5px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.icon-copy {
+    margin-top: 14px;
+    margin-left: 450px;
+    padding: 2px;
+    border: 2px solid rgb(254,174,86);
+    border-radius: 50%;
+}
+
+.copyright {
+    margin-top: 2px;
+    margin-right: 20px;
+    padding: 20px 0 0 0;
+}
